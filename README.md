@@ -14,7 +14,8 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-Aspiring Data Analyst, pursuing Masters in Data Analytics at Northeastern University. Data Analyst with more than 2 years of experience at Accenture, Bangalore. 
-Experienced in developing web services, Machine Learning APIs, and database management (MySQL & MongoDB)
-Skilled in cloud computing. 
+I'm a aspiring Data Analyst, pursuing Masters in Data Analytics at Northeastern University. <br/>
+Data Analyst with more than 2 years of experience at Accenture, Bangalore.  <br/>
+Experienced in developing web services, Machine Learning APIs, and database management (MySQL & MongoDB) <br/>
+Skilled in cloud computing.  <br/>
 Google Certified Data Analytics Professional.
