@@ -26,5 +26,15 @@ country’s infrastructure could be improved through automation and efficient ma
 - Data Analyst with more than 2 years of experience at Accenture, Bangalore.  <br/>
 - Experienced in developing web services, Machine Learning APIs, and database management <br/>
 
+## Certifications
+
+- AWS Certified Cloud Practitioner [![image](https://github.com/manvith1604/manvith1604/assets/66794160/076f268d-8052-4b53-a571-b227d56666f9)
+](url)![image](https://github.com/manvith1604/manvith1604/assets/66794160/185a7838-1821-4ce5-ac3f-799652d7a857)
+- Google Data Analytics Professional
+- Diploma in Computer Application and Programming
+- Java Programming and Software Engineering Fundamentals Specialization
+- Object Oriented Java Programming: Data Structures and Algorithms Specialization
+- Java Programming Masterclass covering Java 11 & Java 17
+
 
 
