@@ -28,9 +28,7 @@ country’s infrastructure could be improved through automation and efficient ma
 
 ## Certifications
 
-- AWS Certified Cloud Practitioner <a href="https://www.credly.com/badges/50b48b45-522e-46f7-bec1-b39f6e40b37b">
-  <img src="https://github.com/manvith1604/manvith1604/assets/66794160/f79b0f26-617a-48d4-8d39-791877789077" alt="Image Description" width="50">
-</a>
+
 - Google Data Analytics Professional
 - Diploma in Computer Application and Programming
 - Java Programming and Software Engineering Fundamentals Specialization
@@ -38,4 +36,6 @@ country’s infrastructure could be improved through automation and efficient ma
 - Java Programming Masterclass covering Java 11 & Java 17
 
 
-
+| [<img src = "https://github.com/manvith1604/manvith1604/assets/66794160/f79b0f26-617a-48d4-8d39-791877789077" width = 100>](https://www.credly.com/badges/50b48b45-522e-46f7-bec1-b39f6e40b37b)| [<img src = "https://github.com/manvith1604/manvith1604/assets/66794160/8b252df2-2e1b-42c3-b258-4f11bbd067fe" width = 100>](https://www.credly.com/badges/8f20d65a-39bf-4dee-b59f-437af8705f6e) | [<img src = "https://github.com/manvith1604/manvith1604/assets/66794160/091d9299-ed8e-4577-b881-2320e794c435" width = 100>](https://nbceskillindia.in/student-verification.php) |
+| :-: | :-: | :-:|
+| AWS Certified Cloud Practitioner | Google Data Analytics Professional | Diploma in Computer Application and Programming |
