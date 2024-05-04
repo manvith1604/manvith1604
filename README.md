@@ -28,14 +28,10 @@ country’s infrastructure could be improved through automation and efficient ma
 
 ## Certifications
 
-
-- Google Data Analytics Professional
-- Diploma in Computer Application and Programming
-- Java Programming and Software Engineering Fundamentals Specialization
-- Object Oriented Java Programming: Data Structures and Algorithms Specialization
-- Java Programming Masterclass covering Java 11 & Java 17
-
-
 | [<img src = "https://github.com/manvith1604/manvith1604/assets/66794160/f79b0f26-617a-48d4-8d39-791877789077" width = 100>](https://www.credly.com/badges/50b48b45-522e-46f7-bec1-b39f6e40b37b)| [<img src = "https://github.com/manvith1604/manvith1604/assets/66794160/8b252df2-2e1b-42c3-b258-4f11bbd067fe" width = 100>](https://www.credly.com/badges/8f20d65a-39bf-4dee-b59f-437af8705f6e) | [<img src = "https://github.com/manvith1604/manvith1604/assets/66794160/091d9299-ed8e-4577-b881-2320e794c435" width = 100>](https://nbceskillindia.in/student-verification.php) |
 | :-: | :-: | :-:|
 | AWS Certified Cloud Practitioner | Google Data Analytics Professional | Diploma in Computer Application and Programming |
+
+| [<img src = "https://github.com/manvith1604/manvith1604/assets/66794160/7a4eefe9-3666-46dd-bd6b-d8c62c6f8a79" width = 100>](https://udemy-certificate.s3.amazonaws.com/pdf/UC-3647dfcc-cff3-4b7c-b8e7-1489ae00f452.pdf)| [<img src = "https://github.com/manvith1604/manvith1604/assets/66794160/c8a40dc9-0999-4db2-b59e-6e774b7420f1" width = 100>](https://www.coursera.org/account/accomplishments/specialization/certificate/S5VC9H9HZ6RA) | [<img src = "https://github.com/manvith1604/manvith1604/assets/66794160/c8a40dc9-0999-4db2-b59e-6e774b7420f1" width = 100>](https://www.coursera.org/account/accomplishments/specialization/certificate/X2YZGG6LPYW5) |
+| :-: | :-: | :-:|
+| Java Programming Masterclass covering Java 11 & Java 17 | Java Programming and Software Engineering Fundamentals Specialization | Object Oriented Java Programming: Data Structures and Algorithms Specialization | 
