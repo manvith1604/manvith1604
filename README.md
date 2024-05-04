@@ -28,8 +28,8 @@ country’s infrastructure could be improved through automation and efficient ma
 
 ## Certifications
 
-- [AWS Certified Cloud Practitioner] <a href="https://www.credly.com/badges/50b48b45-522e-46f7-bec1-b39f6e40b37b">
-  <img src="https://github.com/manvith1604/manvith1604/assets/66794160/f79b0f26-617a-48d4-8d39-791877789077" alt="Image Description" width="150">
+- AWS Certified Cloud Practitioner <a href="https://www.credly.com/badges/50b48b45-522e-46f7-bec1-b39f6e40b37b">
+  <img src="https://github.com/manvith1604/manvith1604/assets/66794160/f79b0f26-617a-48d4-8d39-791877789077" alt="Image Description" width="50">
 </a>
 - Google Data Analytics Professional
 - Diploma in Computer Application and Programming
