@@ -28,7 +28,9 @@ country’s infrastructure could be improved through automation and efficient ma
 
 ## Certifications
 
-- AWS Certified Cloud Practitioner [coursehero.com/sitemap/schools/1117-Northeastern-University/departments/452400-IE/](url)![image](https://github.com/manvith1604/manvith1604/assets/66794160/cd556d60-6687-4da7-a72a-35e9ef1dd7d8) <img src="image_url_here" alt="Image Description" width="300">
+- AWS Certified Cloud Practitioner <a href="coursehero.com/sitemap/schools/1117-Northeastern-University/departments/452400-IE/">
+  <img src="https://github.com/manvith1604/manvith1604/assets/66794160/f79b0f26-617a-48d4-8d39-791877789077" alt="Image Description" width="150">
+</a>
 - Google Data Analytics Professional
 - Diploma in Computer Application and Programming
 - Java Programming and Software Engineering Fundamentals Specialization
