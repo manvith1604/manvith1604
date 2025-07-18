@@ -1,4 +1,4 @@
-## Hi, there <img src="https://github.com/user-attachments/assets/2218604a-3956-4e16-8d18-54274d1cd394" width="50"/>
+## Hi, there <img src="https://github.com/user-attachments/assets/2218604a-3956-4e16-8d18-54274d1cd394" width="30"/>
 
 <!--
 **manvith1604/manvith1604** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
