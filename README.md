@@ -15,12 +15,12 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->     
 <img align="right" src="https://github.com/user-attachments/assets/26ac0081-daa3-4826-b6eb-a82b892d2d32" width="160">  
-- Data Analyst with 4+ years of experience in insurance and entertainment.
-- Master’s in Data Analytics from Northeastern University.
-- Skilled in SQL, Python, AWS, and BI tools like Tableau.
-- Experienced in building scalable pipelines and automating ETL workflows.
-- Delivered insights and dashboards that improved decision-making.
-- Passionate about transforming data into business value.
+- Data Analyst with 4+ years of experience in insurance and entertainment.</br>
+- Master’s in Data Analytics from Northeastern University.</br>
+- Skilled in SQL, Python, AWS, and BI tools like Tableau.</br>
+- Experienced in building scalable pipelines and automating ETL workflows.</br>
+- Delivered insights and dashboards that improved decision-making.</br>
+- Passionate about transforming data into business value.</br>
 
 ## Certifications
 
