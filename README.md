@@ -14,20 +14,20 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-<table style="border: none;">
+<table>
   <tr>
-     <td style="border: none; vertical-align: top;">
-      <ul>
-        <li>Data Analyst with 4+ years of experience in insurance and entertainment domains.</li>
-        <li>Master’s in Data Analytics from Northeastern University.</li>
-        <li>Skilled in building scalable data pipelines and automating ETL workflows.</li>
-        <li>Proficient with SQL, Python, AWS, and Tableau for reporting and dashboarding.</li>
-        <li>Worked on high-impact projects with cross-functional teams and product stakeholders.</li>
-        <li>Driven by a passion to turn complex data into actionable insights.</li>
-      </ul>
+    <td valign="top" width="70%">
+      
+- Data Analyst with 4+ years of experience in insurance and entertainment.
+- Master’s in Data Analytics from Northeastern University.
+- Skilled in SQL, Python, AWS, and BI tools like Tableau.
+- Experienced in building scalable pipelines and automating ETL workflows.
+- Delivered insights and dashboards that improved decision-making.
+- Passionate about transforming data into business value.
+
     </td>
-    <td style="border: none; vertical-align: top;">
-      <img src="https://github.com/user-attachments/assets/26ac0081-daa3-4826-b6eb-a82b892d2d32" width="180"/>
+    <td valign="top" width="30%">
+      <img src="https://github.com/user-attachments/assets/ef707162-6308-45ee-ab7f-e70f1059c5c5" width="160">
     </td>
   </tr>
 </table>
