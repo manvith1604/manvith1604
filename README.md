@@ -1,4 +1,4 @@
-<img src="https://github.com/user-attachments/assets/690109db-2d83-4c2d-99a6-1d2bba7aa585" width="50"/>
+<img src="https://github.com/user-attachments/assets/690109db-2d83-4c2d-99a6-1d2bba7aa585" width="100"/>
 
 <!--
 **manvith1604/manvith1604** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -17,25 +17,17 @@ Here are some ideas to get you started:
 <table>
   <tr>
     <td>
-      <p>
-        Growing up in a rapidly evolving world, I've witnessed firsthand the transformative power of technology and data.
-        On a typical day, whenever I see Siri providing smart suggestions, YouTube automatically recommending videos based 
-        on our interests, or Google Maps predicting commute times, I am amazed by what today’s large amount of data and 
-        cutting-edge technology could help in making our lives easier. Growing in a developing country like India, I have 
-        always wondered how our country’s infrastructure could be improved through automation and efficient management. 
-        This fascination led me on a journey to explore the realm of data analytics. I was driven by a desire to understand 
-        how data could be harnessed to address real-world challenges and enhance the quality of life for individuals and 
-        communities. As a data analyst, I'm not just crunching numbers; I'm leveraging insights to shape impactful solutions 
-        and contribute to a brighter, more connected future.
-      </p>
       <ul>
-        <li>Masters grad in Data Analytics from Northeastern University.</li>
-        <li>Data Analyst with more than 4 years of experience, across insurance and entertainment industries.</li>
-        <li>Experienced in building scalable pipelines, modernizing analytical workflows, and delivering key insights.</li>
+        <li>Data Analyst with 4+ years of experience in insurance and entertainment domains.</li>
+        <li>Master’s in Data Analytics from Northeastern University.</li>
+        <li>Skilled in building scalable data pipelines and automating ETL workflows.</li>
+        <li>Proficient with SQL, Python, AWS, and Tableau for reporting and dashboarding.</li>
+        <li>Worked on high-impact projects with cross-functional teams and product stakeholders.</li>
+        <li>Driven by a passion to turn complex data into actionable insights.</li>
       </ul>
     </td>
     <td>
-      <img src="https://github.com/user-attachments/assets/97987abb-c901-4fca-a474-b2adc59b6c94" width="300"/>
+      <img src="https://github.com/user-attachments/assets/ef707162-6308-45ee-ab7f-e70f1059c5c5" width="180"/>
     </td>
   </tr>
 </table>
