@@ -1,4 +1,4 @@
-<img src="https://github.com/user-attachments/assets/ef707162-6308-45ee-ab7f-e70f1059c5c5" width="100"/>
+## Hi, there <img src="https://github.com/user-attachments/assets/2218604a-3956-4e16-8d18-54274d1cd394" width="50"/>
 
 <!--
 **manvith1604/manvith1604** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,9 +14,9 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-<table>
+<table style="border: none;">
   <tr>
-    <td>
+     <td style="border: none; vertical-align: top;">
       <ul>
         <li>Data Analyst with 4+ years of experience in insurance and entertainment domains.</li>
         <li>Master’s in Data Analytics from Northeastern University.</li>
@@ -26,7 +26,7 @@ Here are some ideas to get you started:
         <li>Driven by a passion to turn complex data into actionable insights.</li>
       </ul>
     </td>
-    <td>
+    <td style="border: none; vertical-align: top;">
       <img src="https://github.com/user-attachments/assets/26ac0081-daa3-4826-b6eb-a82b892d2d32" width="180"/>
     </td>
   </tr>
