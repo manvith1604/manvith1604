@@ -1,4 +1,4 @@
-## Hi there 👋
+## ![Wave Hello GIF](https://github.com/user-attachments/assets/ef707162-6308-45ee-ab7f-e70f1059c5c5) there
 
 <!--
 **manvith1604/manvith1604** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
