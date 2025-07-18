@@ -1,4 +1,4 @@
-<img src="https://github.com/user-attachments/assets/690109db-2d83-4c2d-99a6-1d2bba7aa585" width="100"/>
+<img src="https://github.com/user-attachments/assets/ef707162-6308-45ee-ab7f-e70f1059c5c5" width="100"/>
 
 <!--
 **manvith1604/manvith1604** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -27,7 +27,7 @@ Here are some ideas to get you started:
       </ul>
     </td>
     <td>
-      <img src="https://github.com/user-attachments/assets/ef707162-6308-45ee-ab7f-e70f1059c5c5" width="180"/>
+      <img src="https://github.com/user-attachments/assets/26ac0081-daa3-4826-b6eb-a82b892d2d32" width="180"/>
     </td>
   </tr>
 </table>
