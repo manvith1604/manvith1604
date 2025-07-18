@@ -14,13 +14,13 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->     
+<img align="right" src="https://github.com/user-attachments/assets/26ac0081-daa3-4826-b6eb-a82b892d2d32" width="160">  
 - Data Analyst with 4+ years of experience in insurance and entertainment.
 - Master’s in Data Analytics from Northeastern University.
 - Skilled in SQL, Python, AWS, and BI tools like Tableau.
 - Experienced in building scalable pipelines and automating ETL workflows.
 - Delivered insights and dashboards that improved decision-making.
 - Passionate about transforming data into business value.
-<img src="https://github.com/user-attachments/assets/26ac0081-daa3-4826-b6eb-a82b892d2d32" width="160">  
 
 ## Certifications
 
