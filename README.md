@@ -24,6 +24,10 @@ Here are some ideas to get you started:
 
 ## Certifications
 
+| <img width="360" height="360" alt="image" src="https://github.com/user-attachments/assets/910b7ae8-ae86-495b-b4b8-a2ce32a70472" /> | 
+| :-: |
+| Leetcode SQL 50 |
+
 | [<img src = "https://github.com/manvith1604/manvith1604/assets/66794160/f79b0f26-617a-48d4-8d39-791877789077" width = 100>](https://www.credly.com/badges/50b48b45-522e-46f7-bec1-b39f6e40b37b)| [<img src = "https://github.com/manvith1604/manvith1604/assets/66794160/8b252df2-2e1b-42c3-b258-4f11bbd067fe" width = 100>](https://www.credly.com/badges/8f20d65a-39bf-4dee-b59f-437af8705f6e) | [<img src = "https://github.com/manvith1604/manvith1604/assets/66794160/091d9299-ed8e-4577-b881-2320e794c435" width = 100>](https://nbceskillindia.in/student-verification.php) |
 | :-: | :-: | :-:|
 | AWS Certified Cloud Practitioner | Google Data Analytics Professional | Diploma in Computer Application and Programming |
