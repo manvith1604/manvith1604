@@ -24,7 +24,7 @@ Here are some ideas to get you started:
 
 ## Certifications
 
-| <img width="360" height="360" alt="image" src="https://github.com/user-attachments/assets/910b7ae8-ae86-495b-b4b8-a2ce32a70472" /> | 
+| <img width="100" height="100" alt="image" src="https://github.com/user-attachments/assets/910b7ae8-ae86-495b-b4b8-a2ce32a70472" /> | 
 | :-: |
 | Leetcode SQL 50 |
 
