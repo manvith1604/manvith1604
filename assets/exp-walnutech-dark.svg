@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="186" viewBox="0 0 900 186" role="img" aria-label="Walnutech AI. Data Engineer, Chandler, AZ, Apr 2026 – now. Built the scholarship and pre-college discovery pipeline from scratch in Python and PostgreSQL. 76%→under 1% extraction failure rate. 2.3h→10m monthly crawl stage. 15,000+ records in the live catalog">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1120"/><stop offset="1" stop-color="#111b30"/></linearGradient>
+    <style>
+      .co { font: 700 22px -apple-system, "Segoe UI", Inter, sans-serif; fill: #e6edf7; letter-spacing: -.4px }
+      .ro { font: 500 14px -apple-system, "Segoe UI", Inter, sans-serif; fill: #e6edf7 }
+      .mu { font: 400 12.5px -apple-system, "Segoe UI", Inter, sans-serif; fill: #94a3bd }
+      .op { font: 700 10px ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .2px }
+      .id { font: 400 10.5px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #5d6c88 }
+      .dt { font: 600 11px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #3d9bff }
+      .mv { font: 700 17px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #3d9bff }
+      .ml { font: 400 11px -apple-system, "Segoe UI", Inter, sans-serif; fill: #94a3bd }
+      .pulse { animation: pulse 1.8s ease-in-out infinite }
+      @keyframes pulse { 50% { opacity: .3 } }
+      @media (prefers-reduced-motion: reduce) { .pulse { animation: none } }
+    </style>
+  </defs>
+  <rect width="900" height="186" rx="14" fill="url(#bg)"/>
+  <rect x=".5" y=".5" width="899" height="185" rx="14" fill="none" stroke="#22314f"/>
+  <rect x="0" y="0" width="6" height="186" rx="3" fill="#3d9bff"/>
+  <rect x="28" y="22" width="108" height="18" rx="4" fill="#3d9bff" opacity=".16"/>
+  <text x="35" y="35" class="op" fill="#3d9bff">DataEngOperator</text>
+  <text x="146" y="35" class="id">task_id: walnutech_ai</text>
+  <circle class="pulse" cx="780" cy="31" r="4.5" fill="#a3e635"/>
+  <text x="790" y="35" class="op" fill="#a3e635">running</text>
+  <text x="28" y="72" class="co">Walnutech AI</text>
+  <text x="872" y="70" class="dt" text-anchor="end">Apr 2026 – now</text>
+  <text x="28" y="94" class="ro">Data Engineer</text>
+  <text x="872" y="94" class="mu" text-anchor="end">Chandler, AZ</text>
+  <text x="28" y="117" class="mu">Built the scholarship and pre-college discovery pipeline from scratch in Python and PostgreSQL.</text>
+  <rect x="28" y="132" width="272" height="40" rx="8" fill="#16233d" stroke="#22314f"/>
+  <text x="40" y="158" class="mv">76%→&lt;1%</text>
+  <text x="116" y="157" class="ml">extraction failure rate</text>
+  <rect x="314" y="132" width="272" height="40" rx="8" fill="#16233d" stroke="#22314f"/>
+  <text x="326" y="158" class="mv">2.3h→10m</text>
+  <text x="413" y="157" class="ml">monthly crawl stage</text>
+  <rect x="600" y="132" width="272" height="40" rx="8" fill="#16233d" stroke="#22314f"/>
+  <text x="612" y="158" class="mv">15,000+</text>
+  <text x="688" y="157" class="ml">records in the live catalog</text>
+</svg>

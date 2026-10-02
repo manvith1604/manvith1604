@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="186" viewBox="0 0 900 186" role="img" aria-label="The Walt Disney Company. Data Analyst → Senior Data Analyst · via Accenture, Bangalore, IN, Jan 2020 – Jan 2023. SQL analytics and event-driven pipelines (EventBridge, Lambda) for park booking; led a team of 8. 5M+ records across 6 apps. −80% manual booking validation. +40% dashboard refresh speed">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1120"/><stop offset="1" stop-color="#111b30"/></linearGradient>
+    <style>
+      .co { font: 700 22px -apple-system, "Segoe UI", Inter, sans-serif; fill: #e6edf7; letter-spacing: -.4px }
+      .ro { font: 500 14px -apple-system, "Segoe UI", Inter, sans-serif; fill: #e6edf7 }
+      .mu { font: 400 12.5px -apple-system, "Segoe UI", Inter, sans-serif; fill: #94a3bd }
+      .op { font: 700 10px ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .2px }
+      .id { font: 400 10.5px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #5d6c88 }
+      .dt { font: 600 11px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #3d9bff }
+      .mv { font: 700 17px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #3d9bff }
+      .ml { font: 400 11px -apple-system, "Segoe UI", Inter, sans-serif; fill: #94a3bd }
+      .pulse { animation: pulse 1.8s ease-in-out infinite }
+      @keyframes pulse { 50% { opacity: .3 } }
+      @media (prefers-reduced-motion: reduce) { .pulse { animation: none } }
+    </style>
+  </defs>
+  <rect width="900" height="186" rx="14" fill="url(#bg)"/>
+  <rect x=".5" y=".5" width="899" height="185" rx="14" fill="none" stroke="#22314f"/>
+  <rect x="0" y="0" width="6" height="186" rx="3" fill="#00c7d4"/>
+  <rect x="28" y="22" width="108" height="18" rx="4" fill="#00c7d4" opacity=".16"/>
+  <text x="35" y="35" class="op" fill="#00c7d4">AnalystOperator</text>
+  <text x="146" y="35" class="id">task_id: accenture_disney</text>
+  <circle cx="780" cy="31" r="4.5" fill="#22c55e"/>
+  <text x="790" y="35" class="op" fill="#22c55e">success</text>
+  <text x="28" y="72" class="co">The Walt Disney Company</text>
+  <text x="872" y="70" class="dt" text-anchor="end">Jan 2020 – Jan 2023</text>
+  <text x="28" y="94" class="ro">Data Analyst → Senior Data Analyst · via Accenture</text>
+  <text x="872" y="94" class="mu" text-anchor="end">Bangalore, IN</text>
+  <text x="28" y="117" class="mu">SQL analytics and event-driven pipelines (EventBridge, Lambda) for park booking; led a team of 8.</text>
+  <rect x="28" y="132" width="272" height="40" rx="8" fill="#16233d" stroke="#22314f"/>
+  <text x="40" y="158" class="mv">5M+</text>
+  <text x="74" y="157" class="ml">records across 6 apps</text>
+  <rect x="314" y="132" width="272" height="40" rx="8" fill="#16233d" stroke="#22314f"/>
+  <text x="326" y="158" class="mv">−80%</text>
+  <text x="370" y="157" class="ml">manual booking validation</text>
+  <rect x="600" y="132" width="272" height="40" rx="8" fill="#16233d" stroke="#22314f"/>
+  <text x="612" y="158" class="mv">+40%</text>
+  <text x="656" y="157" class="ml">dashboard refresh speed</text>
+</svg>

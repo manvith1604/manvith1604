@@ -10,39 +10,35 @@ Five years of it, across Disney's booking systems, a home insurer's vendor feeds
 
 ---
 
-### Now
+### Experience
 
-**Walnutech AI** · Data Engineer · Chandler, AZ · Apr 2026 to now
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/exp-walnutech-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/exp-walnutech-light.svg">
+  <img src="assets/exp-walnutech-dark.svg" alt="Walnutech AI, Data Engineer, Chandler AZ, April 2026 to now. Built the scholarship and pre-college discovery pipeline from scratch in Python and PostgreSQL. Extraction failure rate 76% to under 1%. Monthly crawl 2.3 hours to 10 minutes. 15,000+ records in the live catalog.">
+</picture>
 
-I own the pipeline behind the scholarship and pre-college discovery catalog, built from scratch.
+<sub>Also the team's AI-native dev tooling: Claude Code agent skills for a self-revision review loop and a 0–100 production-readiness audit, wired into the PR flow.</sub>
 
-|  |  |
-| --- | --- |
-| `76% → <1%` | field-extraction failure rate, after replacing hallucination-prone LLM extraction with deterministic logic checked against human-labelled records |
-| `2.3h → 10m` | monthly crawl stage, after making ingestion idempotent and resumable with per-batch commits, so a failure loses nothing |
-| `15,000+` | scholarships and programs live in the catalog, extracted, enriched and loaded by the pipeline |
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/exp-cdf-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/exp-cdf-light.svg">
+  <img src="assets/exp-cdf-dark.svg" alt="Community Dreams Foundation, Data Engineer, remote, June 2025 to June 2026. Lineage-tracked ETL and a 9-table Postgres model for an FDA-compliant food-safety SaaS. 50+ automated data-quality rules, 9 RAG knowledge libraries, 0 production incidents.">
+</picture>
 
-I also write the team's AI-native dev tooling as Claude Code agent skills: a self-revision review loop and a 0 to 100 production-readiness audit, wired into the PR flow to catch data-integrity and migration risk before it ships.
-
-<sub>Python · PostgreSQL · Supabase · Claude Code · data quality</sub>
-
----
-
-### Before
-
-**Community Dreams Foundation** · Data Engineer · Jun 2025 to Jun 2026
-
-A food-safety SaaS where every output has to survive an FDA audit. Designed a `9`-table Postgres model with transactional batch numbering, so any worksheet traces back to its inputs. Grounded Claude's hazard extraction in `9` curated JSON knowledge libraries across `10+` products. Automated `50+` validation rules against JSON Schema so structural regressions fail before deploy, not in production. Production incidents: `0`.
-
-**Plymouth Rock Assurance** · Data Engineer Co-op · Jul 2024 to Jan 2025
-
-Migrated legacy SAS pipelines to Python with Polars, landing partitioned Parquet on S3: runtime down `77%`. Processed `300M+` rows of vendor data on Redshift and S3 for `80%` less compute. Orchestrated ingestion with ECS Fargate and Step Functions.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/exp-plymouth-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/exp-plymouth-light.svg">
+  <img src="assets/exp-plymouth-dark.svg" alt="Plymouth Rock Assurance, Data Engineer Co-op, Boston MA, July 2024 to January 2025. Migrated SAS pipelines to Python and Polars. Pipeline runtime down 77%, 300M+ rows of vendor data, cloud compute cost down 80%.">
+</picture>
 
 > *"Manvith played a pivotal role in modernizing data pipelines during his time at Plymouth."* — Jamie Warner, who managed me there
 
-**Accenture** for **The Walt Disney Company** · Data Analyst → Senior Data Analyst · Jan 2020 to Jan 2023
-
-SQL analysis across `6` Disney apps and `5M+` records. Event-driven pipelines on EventBridge and Lambda for real-time booking logs. Automated park-pass validation, `80%` less manual work. Led a team of `8` through a booking-engine launch on record visitor volume.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/exp-disney-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/exp-disney-light.svg">
+  <img src="assets/exp-disney-dark.svg" alt="The Walt Disney Company via Accenture, Data Analyst to Senior Data Analyst, Bangalore, January 2020 to January 2023. SQL analytics and event-driven pipelines for park booking. 5M+ records across 6 apps, 80% less manual booking validation, 40% faster dashboard refresh.">
+</picture>
 
 ---
 
@@ -68,23 +64,33 @@ Pulled from GitHub every night by a workflow in this repo. No third-party stats 
   <img src="assets/stats-dark.svg" alt="GitHub activity: contributions over the last year as a heatmap, streaks, pull requests and top languages. Refreshed nightly from public data.">
 </picture>
 
-**Recently**
-
-<!--START_SECTION:activity-->
-- `2026-10-02` pushed to [manvith1604/manvith1604](https://github.com/manvith1604/manvith1604)
-- `2026-10-02` pushed to [manvith1604/portfolio](https://github.com/manvith1604/portfolio) · 2 pushes
-- `2026-09-29` pushed to [manvith1604/portfolio](https://github.com/manvith1604/portfolio) · 2 pushes
-
-<sub>Public events only, refreshed nightly · last run 2026-10-02</sub>
-<!--END_SECTION:activity-->
 
 ---
 
-### Rest
+### Education
 
-**M.S. Data Analytics Engineering**, Northeastern University, `3.9` · **B.E.**, JSS Science and Technology University
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/education-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/education-light.svg">
+  <img src="assets/education-dark.svg" alt="M.S. Data Analytics Engineering, Northeastern University, Boston, January 2023 to May 2025, GPA 3.9. Bachelor of Engineering, JSS Science and Technology University, Mysore, August 2016 to June 2020.">
+</picture>
 
-AWS Certified Cloud Practitioner · Google Data Analytics Professional · DataExpert.io Data Engineering Bootcamp · LeetCode SQL 50
+### Certifications
+
+<p>
+<a href="https://www.credly.com/badges/50b48b45-522e-46f7-bec1-b39f6e40b37b"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cert-aws-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/cert-aws-light.svg"><img src="assets/cert-aws-dark.svg" width="49%" alt="AWS Certified Cloud Practitioner, Amazon Web Services"></picture></a>
+<a href="https://www.credly.com/badges/8f20d65a-39bf-4dee-b59f-437af8705f6e"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cert-google-da-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/cert-google-da-light.svg"><img src="assets/cert-google-da-dark.svg" width="49%" alt="Google Data Analytics Professional, Google and Coursera"></picture></a>
+<a href="https://www.dataexpert.io"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cert-dataexpert-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/cert-dataexpert-light.svg"><img src="assets/cert-dataexpert-dark.svg" width="49%" alt="Data Engineering Bootcamp, DataExpert.io"></picture></a>
+<a href="https://leetcode.com/studyplan/top-sql-50/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cert-leetcode-sql-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/cert-leetcode-sql-light.svg"><img src="assets/cert-leetcode-sql-dark.svg" width="49%" alt="LeetCode SQL 50"></picture></a>
+<a href="https://www.coursera.org/account/accomplishments/specialization/certificate/S5VC9H9HZ6RA"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cert-java-se-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/cert-java-se-light.svg"><img src="assets/cert-java-se-dark.svg" width="49%" alt="Java Programming and Software Engineering Fundamentals, Coursera"></picture></a>
+<a href="https://www.coursera.org/account/accomplishments/specialization/certificate/X2YZGG6LPYW5"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cert-java-oop-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/cert-java-oop-light.svg"><img src="assets/cert-java-oop-dark.svg" width="49%" alt="Object Oriented Java Programming: Data Structures and Algorithms, Coursera"></picture></a>
+<a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-3647dfcc-cff3-4b7c-b8e7-1489ae00f452.pdf"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cert-java-udemy-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/cert-java-udemy-light.svg"><img src="assets/cert-java-udemy-dark.svg" width="49%" alt="Java Programming Masterclass covering Java 11 and 17, Udemy"></picture></a>
+<a href="https://nbceskillindia.in/student-verification.php"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cert-diploma-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/cert-diploma-light.svg"><img src="assets/cert-diploma-dark.svg" width="49%" alt="Diploma in Computer Applications and Programming, KEONICS"></picture></a>
+</p>
+
+---
+
+### Toolbox
 
 Python · SQL · PostgreSQL · Airflow · PySpark · Polars · Pandas · AWS (S3, Redshift, Glue, Athena, Lambda, ECS Fargate, Step Functions) · Snowflake · BigQuery · Docker · Tableau · Power BI
 

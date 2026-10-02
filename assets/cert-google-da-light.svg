@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="436" height="76" viewBox="0 0 436 76" role="img" aria-label="Google Data Analytics Professional, Google · Coursera">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f1f5fb"/></linearGradient>
+    <style>
+      .co { font: 700 22px -apple-system, "Segoe UI", Inter, sans-serif; fill: #0f1b2d; letter-spacing: -.4px }
+      .ro { font: 500 14px -apple-system, "Segoe UI", Inter, sans-serif; fill: #0f1b2d }
+      .mu { font: 400 12.5px -apple-system, "Segoe UI", Inter, sans-serif; fill: #4a5a72 }
+      .op { font: 700 10px ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .2px }
+      .id { font: 400 10.5px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #8a98ad }
+      .dt { font: 600 11px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #017cee }
+      .mv { font: 700 17px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #017cee }
+      .ml { font: 400 11px -apple-system, "Segoe UI", Inter, sans-serif; fill: #4a5a72 }
+      .pulse { animation: pulse 1.8s ease-in-out infinite }
+      @keyframes pulse { 50% { opacity: .3 } }
+      @media (prefers-reduced-motion: reduce) { .pulse { animation: none } }
+    </style>
+  </defs>
+  <rect width="436" height="76" rx="14" fill="url(#bg)"/>
+  <rect x=".5" y=".5" width="435" height="75" rx="14" fill="none" stroke="#d9e1ec"/>
+  <rect x="16" y="14" width="48" height="48" rx="10" fill="#4285F4" opacity=".14"/>
+  <path d="M12.48 10.92v3.28h7.84c-.24 1.84-.853 3.187-1.787 4.133-1.147 1.147-2.933 2.4-6.053 2.4-4.827 0-8.6-3.893-8.6-8.72s3.773-8.72 8.6-8.72c2.6 0 4.507 1.027 5.907 2.347l2.307-2.307C18.747 1.44 16.133 0 12.48 0 5.867 0 .307 5.387.307 12s5.56 12 12.173 12c3.573 0 6.267-1.173 8.373-3.36 2.16-2.16 2.84-5.213 2.84-7.667 0-.76-.053-1.467-.173-2.053H12.48z" fill="#4285F4" transform="translate(28 26) scale(1)"/>
+  <text x="78" y="35" class="ro" style="font-weight:600">Google Data Analytics Professional</text>
+  <text x="78" y="55" class="id">Google · Coursera</text>
+  <text x="414" y="35" class="id" text-anchor="end">↗</text>
+</svg>

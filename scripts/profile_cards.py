@@ -1,4 +1,4 @@
-"""Render the live GitHub activity card and the README "recent activity" block.
+"""Render the live GitHub activity card.
 
 Runs nightly from .github/workflows/profile-cards.yml. Standard library only.
 
@@ -6,10 +6,8 @@ Sources, all public:
   - contribution calendar  https://github.com/users/<user>/contributions  (no token needed)
   - pull-request counts    GitHub search API
   - languages              public, non-fork repositories, summed by bytes
-  - recent activity        public events feed
 
-Writes assets/stats-dark.svg, assets/stats-light.svg and rewrites the block between
-<!--START_SECTION:activity--> and <!--END_SECTION:activity--> in README.md.
+Writes assets/stats-dark.svg and assets/stats-light.svg.
 
 If any source fails, the script raises before writing anything, so the last good card
 stays committed. A stale card beats a card with a wrong number.
@@ -107,33 +105,6 @@ def languages():
     return [(k, v / total) for k, v in top], len(repos)
 
 
-def recent_activity(limit=6):
-    # The public events feed no longer carries reliable commit counts, so pushes are
-    # grouped per repo per day and counted as pushes, never claimed as commits.
-    items, pushes = [], {}
-    for e in get(f"https://api.github.com/users/{USER}/events/public?per_page=100"):
-        repo, when = e["repo"]["name"], e["created_at"][:10]
-        p, t = e.get("payload", {}), e["type"]
-        link = f"[{repo}](https://github.com/{repo})"
-        if t == "PushEvent":
-            key = (when, repo)
-            if key not in pushes:
-                pushes[key] = [0, len(items)]
-                items.append(None)
-            pushes[key][0] += 1
-        elif t == "PullRequestEvent" and p.get("action") in ("opened", "closed"):
-            pr = p["pull_request"]
-            verb = "merged" if pr.get("merged") else p["action"]
-            items.append(f"- `{when}` {verb} PR [#{pr['number']} {pr['title']}]({pr['html_url']}) in `{repo}`")
-        elif t == "CreateEvent" and p.get("ref_type") == "repository":
-            items.append(f"- `{when}` created {link}")
-        elif t == "ReleaseEvent":
-            items.append(f"- `{when}` released `{p['release']['tag_name']}` of {link}")
-    for (when, repo), (n, i) in pushes.items():
-        items[i] = f"- `{when}` pushed to [{repo}](https://github.com/{repo})" + (f" · {n} pushes" if n > 1 else "")
-    return items[:limit]
-
-
 # ---------------------------------------------------------------- rendering
 def render(theme, days, cur, longest, opened, merged, langs, repo_count, updated):
     c, lv = THEMES[theme], LEVELS[theme]
@@ -223,28 +194,16 @@ def render(theme, days, cur, longest, opened, merged, langs, repo_count, updated
     return "".join(s)
 
 
-def write_activity(lines, updated):
-    readme = ROOT / "README.md"
-    text = readme.read_text(encoding="utf-8")
-    block = "\n".join(lines) if lines else "_Nothing public in the last 90 days._"
-    block += f"\n\n<sub>Public events only, refreshed nightly · last run {updated}</sub>"
-    new = re.sub(r"(<!--START_SECTION:activity-->).*?(<!--END_SECTION:activity-->)",
-                 lambda m: m.group(1) + "\n" + block + "\n" + m.group(2), text, flags=re.S)
-    readme.write_text(new, encoding="utf-8")
-
-
 if __name__ == "__main__":
     # gather everything first; any failure raises before a single file is written
     days = contributions()
     cur, longest = streaks(days)
     opened, merged = pr_counts()
     langs, repo_count = languages()
-    activity = recent_activity()
     updated = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d")
 
     (ROOT / "assets").mkdir(exist_ok=True)
     for theme in THEMES:
         (ROOT / "assets" / f"stats-{theme}.svg").write_text(
             render(theme, days, cur, longest, opened, merged, langs, repo_count, updated), encoding="utf-8")
-    write_activity(activity, updated)
-    print(f"ok: {sum(n for _, n, _ in days[-371:])} contributions, streak {cur}/{longest}, PRs {merged}/{opened}, {len(activity)} events")
+    print(f"ok: {sum(n for _, n, _ in days[-371:])} contributions, streak {cur}/{longest}, PRs {merged}/{opened}")

@@ -1,9 +1,9 @@
 name: Profile cards
 
-# Renders assets/header-{dark,light}.svg and assets/stats-{dark,light}.svg and rewrites
-# the "Recently" block in README.md, then commits only if something changed.
+# Renders the header, experience/education/certification cards and the live activity card
+# (assets/*-{dark,light}.svg), then commits only if something changed.
 #
-# Everything is read from public data (contribution calendar, search API, public events),
+# Everything is read from public data (contribution calendar, search API),
 # so no personal access token is needed; the built-in token only raises the API rate limit.
 # If a source fails, the script raises before writing, the job goes red and the last good
 # cards stay committed.
@@ -36,10 +36,12 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Render header
-        run: python3 scripts/make_header.py
+      - name: Render header and static cards
+        run: |
+          python3 scripts/make_header.py
+          python3 scripts/make_cards.py
 
-      - name: Render activity card and recent activity
+      - name: Render activity card
         env:
           GH_USER: manvith1604
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -47,12 +49,12 @@ jobs:
 
       - name: Commit if changed
         run: |
-          if [[ -z "$(git status --porcelain assets README.md)" ]]; then
+          if [[ -z "$(git status --porcelain assets)" ]]; then
             echo "cards unchanged"; exit 0
           fi
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets README.md
+          git add assets
           git commit -m "Profile cards: refresh live activity"
           for i in 1 2 3; do
             git pull --rebase --autostash origin main && git push && exit 0

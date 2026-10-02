@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="436" height="76" viewBox="0 0 436 76" role="img" aria-label="Object Oriented Java: Data Structures, Coursera specialization">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f1f5fb"/></linearGradient>
+    <style>
+      .co { font: 700 22px -apple-system, "Segoe UI", Inter, sans-serif; fill: #0f1b2d; letter-spacing: -.4px }
+      .ro { font: 500 14px -apple-system, "Segoe UI", Inter, sans-serif; fill: #0f1b2d }
+      .mu { font: 400 12.5px -apple-system, "Segoe UI", Inter, sans-serif; fill: #4a5a72 }
+      .op { font: 700 10px ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .2px }
+      .id { font: 400 10.5px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #8a98ad }
+      .dt { font: 600 11px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #017cee }
+      .mv { font: 700 17px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #017cee }
+      .ml { font: 400 11px -apple-system, "Segoe UI", Inter, sans-serif; fill: #4a5a72 }
+      .pulse { animation: pulse 1.8s ease-in-out infinite }
+      @keyframes pulse { 50% { opacity: .3 } }
+      @media (prefers-reduced-motion: reduce) { .pulse { animation: none } }
+    </style>
+  </defs>
+  <rect width="436" height="76" rx="14" fill="url(#bg)"/>
+  <rect x=".5" y=".5" width="435" height="75" rx="14" fill="none" stroke="#d9e1ec"/>
+  <rect x="16" y="14" width="48" height="48" rx="10" fill="#0056D2" opacity=".14"/>
+  <path d="M11.374 23.977c-4.183-.21-8.006-2.626-9.959-6.347-2.097-3.858-1.871-8.864.732-12.454C4.748 1.338 9.497-.698 14.281.23c4.583.857 8.351 4.494 9.358 8.911 1.122 4.344-.423 9.173-3.925 12.04-2.289 1.953-5.295 2.956-8.34 2.797zm7.705-8.05a588.737 588.737 0 0 0-3.171-1.887c-.903 1.483-2.885 2.248-4.57 1.665-2.024-.639-3.394-2.987-2.488-5.134.801-2.009 2.79-2.707 4.357-2.464a4.19 4.19 0 0 1 2.623 1.669c1.077-.631 2.128-1.218 3.173-1.855-2.03-3.118-6.151-4.294-9.656-2.754-3.13 1.423-4.89 4.68-4.388 7.919.54 3.598 3.73 6.486 7.716 6.404a7.664 7.664 0 0 0 6.404-3.563z" fill="#0056D2" transform="translate(28 26) scale(1)"/>
+  <text x="78" y="35" class="ro" style="font-weight:600">Object Oriented Java: Data Structures</text>
+  <text x="78" y="55" class="id">Coursera specialization</text>
+  <text x="414" y="35" class="id" text-anchor="end">↗</text>
+</svg>

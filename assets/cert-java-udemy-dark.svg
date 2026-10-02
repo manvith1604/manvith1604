@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="436" height="76" viewBox="0 0 436 76" role="img" aria-label="Java Programming Masterclass (11 and 17), Udemy">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1120"/><stop offset="1" stop-color="#111b30"/></linearGradient>
+    <style>
+      .co { font: 700 22px -apple-system, "Segoe UI", Inter, sans-serif; fill: #e6edf7; letter-spacing: -.4px }
+      .ro { font: 500 14px -apple-system, "Segoe UI", Inter, sans-serif; fill: #e6edf7 }
+      .mu { font: 400 12.5px -apple-system, "Segoe UI", Inter, sans-serif; fill: #94a3bd }
+      .op { font: 700 10px ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: .2px }
+      .id { font: 400 10.5px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #5d6c88 }
+      .dt { font: 600 11px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #3d9bff }
+      .mv { font: 700 17px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #3d9bff }
+      .ml { font: 400 11px -apple-system, "Segoe UI", Inter, sans-serif; fill: #94a3bd }
+      .pulse { animation: pulse 1.8s ease-in-out infinite }
+      @keyframes pulse { 50% { opacity: .3 } }
+      @media (prefers-reduced-motion: reduce) { .pulse { animation: none } }
+    </style>
+  </defs>
+  <rect width="436" height="76" rx="14" fill="url(#bg)"/>
+  <rect x=".5" y=".5" width="435" height="75" rx="14" fill="none" stroke="#22314f"/>
+  <rect x="16" y="14" width="48" height="48" rx="10" fill="#A435F0" opacity=".14"/>
+  <path d="M12 0L5.81 3.573v3.574l6.189-3.574 6.191 3.574V3.573zM5.81 10.148v8.144c0 1.85.589 3.243 1.741 4.234S10.177 24 11.973 24s3.269-.482 4.448-1.474c1.179-.991 1.768-2.439 1.768-4.314v-8.064h-3.242v7.85c0 2.036-1.509 3.055-2.948 3.055-1.428 0-2.947-.991-2.947-3.027v-7.878z" fill="#A435F0" transform="translate(28 26) scale(1)"/>
+  <text x="78" y="35" class="ro" style="font-weight:600">Java Programming Masterclass (11 &amp; 17)</text>
+  <text x="78" y="55" class="id">Udemy</text>
+  <text x="414" y="35" class="id" text-anchor="end">↗</text>
+</svg>
