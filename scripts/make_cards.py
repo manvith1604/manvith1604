@@ -102,9 +102,7 @@ def role_card(r, theme):
     w, h = 900, 186
     op = c[r["op_color"]]
     b = [f'  <rect x="0" y="0" width="6" height="{h}" rx="3" fill="{op}"/>\n',
-         f'  <rect x="28" y="22" width="{len(r["op"]) * 6.3 + 14:.0f}" height="18" rx="4" fill="{op}" opacity=".16"/>\n',
-         f'  <text x="35" y="35" class="op" fill="{op}">{r["op"]}</text>\n',
-         f'  <text x="{len(r["op"]) * 6.3 + 52:.0f}" y="35" class="id">task_id: {r["task"]}</text>\n',
+         f'  <text x="28" y="35" class="id">task_id: {r["task"]}</text>\n',
          state_pip(780, 31, r["state"], c),
          f'  <text x="28" y="72" class="co">{r["company"]}</text>\n',
          f'  <text x="872" y="70" class="dt" text-anchor="end">{r["when"]}</text>\n',
@@ -130,8 +128,7 @@ def education_card(theme):
         x = 24 + i * 432
         b.append(f'  <rect x="{x}" y="20" width="420" height="110" rx="10" fill="{c["chip"]}" stroke="{c["border"]}"/>\n')
         b.append(f'  <rect x="{x}" y="20" width="5" height="110" rx="2.5" fill="{op}"/>\n')
-        b.append(f'  <rect x="{x + 20}" y="34" width="122" height="18" rx="4" fill="{op}" opacity=".16"/>\n')
-        b.append(f'  <text x="{x + 27}" y="47" class="op" fill="{op}">EducationOperator</text>\n')
+        b.append(f'  <text x="{x + 20}" y="47" class="id">task_id: {s["task"]}</text>\n')
         b.append(state_pip(x + 334, 43, "success", c))
         b.append(f'  <text x="{x + 20}" y="78" class="ro" style="font-weight:700;font-size:16px">{s["name"]}</text>\n')
         b.append(f'  <text x="{x + 20}" y="99" class="mu">{s["degree"]} · {s["where"]}</text>\n')

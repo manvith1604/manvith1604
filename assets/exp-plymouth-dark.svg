@@ -18,9 +18,7 @@
   <rect width="900" height="186" rx="14" fill="url(#bg)"/>
   <rect x=".5" y=".5" width="899" height="185" rx="14" fill="none" stroke="#22314f"/>
   <rect x="0" y="0" width="6" height="186" rx="3" fill="#f59e0b"/>
-  <rect x="28" y="22" width="90" height="18" rx="4" fill="#f59e0b" opacity=".16"/>
-  <text x="35" y="35" class="op" fill="#f59e0b">CoopOperator</text>
-  <text x="128" y="35" class="id">task_id: plymouth_coop</text>
+  <text x="28" y="35" class="id">task_id: plymouth_coop</text>
   <circle cx="780" cy="31" r="4.5" fill="#22c55e"/>
   <text x="790" y="35" class="op" fill="#22c55e">success</text>
   <text x="28" y="72" class="co">Plymouth Rock Assurance</text>

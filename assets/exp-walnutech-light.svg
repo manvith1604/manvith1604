@@ -18,9 +18,7 @@
   <rect width="900" height="186" rx="14" fill="url(#bg)"/>
   <rect x=".5" y=".5" width="899" height="185" rx="14" fill="none" stroke="#d9e1ec"/>
   <rect x="0" y="0" width="6" height="186" rx="3" fill="#017cee"/>
-  <rect x="28" y="22" width="108" height="18" rx="4" fill="#017cee" opacity=".16"/>
-  <text x="35" y="35" class="op" fill="#017cee">DataEngOperator</text>
-  <text x="146" y="35" class="id">task_id: walnutech_ai</text>
+  <text x="28" y="35" class="id">task_id: walnutech_ai</text>
   <circle class="pulse" cx="780" cy="31" r="4.5" fill="#65a30d"/>
   <text x="790" y="35" class="op" fill="#65a30d">running</text>
   <text x="28" y="72" class="co">Walnutech AI</text>
