@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Manvith Belame Yogesh. Data Engineer at Walnutech AI. M.S. Data Analytics Engineering, Northeastern · GPA 3.9 · 5+ years in data. Open to data engineering roles, Phoenix AZ, open to relocation. 76%→&lt;1% extraction failures. 2.3h→10m monthly crawl. −77% pipeline runtime. 300M+ rows processed. −80% cloud compute. 50+ data-quality rules.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1120"/><stop offset="1" stop-color="#111b30"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="82%" cy="10%" r="60%">
+      <stop offset="0" stop-color="#3d9bff" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#3d9bff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#1a2742"/>
+    </pattern>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 1 L9 5 L0 9 Z" fill="#3d9bff"/></marker>
+    <style>
+      .n { font: 700 40px -apple-system, "Segoe UI", Inter, sans-serif; letter-spacing: -1.4px; fill: #e6edf7 }
+      .r { font: 500 18px -apple-system, "Segoe UI", Inter, sans-serif; fill: #e6edf7 }
+      .s { font: 400 13.5px -apple-system, "Segoe UI", Inter, sans-serif; fill: #94a3bd }
+      .k { font: 700 18px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #3d9bff }
+      .l { font: 400 11px -apple-system, "Segoe UI", Inter, sans-serif; fill: #94a3bd }
+      .e { font: 600 10.5px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #00c7d4; letter-spacing: 1.6px }
+      .t { font: 600 8px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #94a3bd }
+      .dag { font: 500 9px ui-monospace, SFMono-Regular, Menlo, monospace; fill: #5d6c88 }
+      .edge { fill: none; stroke: #3d9bff; stroke-width: 1.4; stroke-dasharray: 4 4; opacity: .85;
+               animation: flow .8s linear infinite }
+      .task { fill: #111b30; stroke: #475569; stroke-width: 2; animation: state 9.0s linear infinite both }
+      .pulse { animation: pulse 2s ease-out infinite; transform-origin: 48px 46px }
+      @keyframes flow { to { stroke-dashoffset: -8 } }
+      @keyframes state {
+        0% { stroke: #a3e635 }
+        5.00% { stroke: #a3e635 }
+        5.01% { stroke: #22c55e }
+        90.00% { stroke: #22c55e }
+        90.01% { stroke: #475569 }
+        100% { stroke: #475569 }
+      }
+      @keyframes pulse { 0% { opacity: .9; transform: scale(1) } 100% { opacity: 0; transform: scale(3) } }
+      @media (prefers-reduced-motion: reduce) { .edge, .task, .pulse { animation: none } .task { stroke: #22c55e } }
+    </style>
+  </defs>
+  <rect width="900" height="300" rx="14" fill="url(#bg)"/>
+  <rect width="900" height="300" rx="14" fill="url(#glow)"/>
+  <rect x="516" y="28" width="364" height="160" rx="10" fill="url(#dots)" opacity=".9"/>
+  <rect x=".5" y=".5" width="899" height="299" rx="14" fill="none" stroke="#22314f"/>
+  <circle class="pulse" cx="48" cy="46" r="4.5" fill="#22c55e"/>
+  <circle cx="48" cy="46" r="4.5" fill="#22c55e"/>
+  <text x="62" y="50" class="e">OPEN TO DATA ENGINEERING ROLES · PHOENIX, AZ</text>
+  <text x="44" y="118" class="n">Manvith Belame Yogesh</text>
+  <text x="44" y="150" class="r">Data Engineer at Walnutech AI</text>
+  <text x="44" y="174" class="s">M.S. Data Analytics Engineering, Northeastern · GPA 3.9 · 5+ years in data</text>
+  <text x="536" y="56" class="dag">dag_id: manvith_career  ·  @continuous</text>
+  <path class="edge" d="M576 131.0 C578.0 131.0 578.0 81.0 580 81.0" marker-end="url(#arr)"/>
+  <path class="edge" d="M576 131.0 C601.0 131.0 601.0 131.0 626 131.0" marker-end="url(#arr)"/>
+  <path class="edge" d="M622 81.0 C624.0 81.0 624.0 131.0 626 131.0" marker-end="url(#arr)"/>
+  <path class="edge" d="M668 131.0 C670.0 131.0 670.0 131.0 672 131.0" marker-end="url(#arr)"/>
+  <path class="edge" d="M714 131.0 C716.0 131.0 716.0 81.0 718 81.0" marker-end="url(#arr)"/>
+  <path class="edge" d="M714 131.0 C739.0 131.0 739.0 131.0 764 131.0" marker-end="url(#arr)"/>
+  <path class="edge" d="M760 81.0 C762.0 81.0 762.0 131.0 764 131.0" marker-end="url(#arr)"/>
+  <path class="edge" d="M806 131.0 C808.0 131.0 808.0 131.0 810 131.0" marker-end="url(#arr)"/>
+  <rect class="task" x="536" y="120" width="40" height="22" rx="5" style="animation-delay:0.00s"/>
+  <text x="556.0" y="134.5" class="t" text-anchor="middle">jss</text>
+  <rect class="task" x="582" y="70" width="40" height="22" rx="5" style="animation-delay:0.55s"/>
+  <text x="602.0" y="84.5" class="t" text-anchor="middle">nuetech</text>
+  <rect class="task" x="628" y="120" width="40" height="22" rx="5" style="animation-delay:1.10s"/>
+  <text x="648.0" y="134.5" class="t" text-anchor="middle">disney</text>
+  <rect class="task" x="674" y="120" width="40" height="22" rx="5" style="animation-delay:1.65s"/>
+  <text x="694.0" y="134.5" class="t" text-anchor="middle">neu_ms</text>
+  <rect class="task" x="720" y="70" width="40" height="22" rx="5" style="animation-delay:2.20s"/>
+  <text x="740.0" y="84.5" class="t" text-anchor="middle">plymouth</text>
+  <rect class="task" x="766" y="120" width="40" height="22" rx="5" style="animation-delay:2.75s"/>
+  <text x="786.0" y="134.5" class="t" text-anchor="middle">cdf</text>
+  <rect class="task" x="812" y="120" width="40" height="22" rx="5" style="animation-delay:3.30s"/>
+  <text x="832.0" y="134.5" class="t" text-anchor="middle">walnut</text>
+  <line x1="44" y1="206" x2="856" y2="206" stroke="#22314f"/>
+  <text x="44" y="242" class="k">76%→&lt;1%</text><text x="44" y="262" class="l">extraction failures</text>
+  <text x="182" y="242" class="k">2.3h→10m</text><text x="182" y="262" class="l">monthly crawl</text>
+  <text x="310" y="242" class="k">−77%</text><text x="310" y="262" class="l">pipeline runtime</text>
+  <text x="432" y="242" class="k">300M+</text><text x="432" y="262" class="l">rows processed</text>
+  <text x="560" y="242" class="k">−80%</text><text x="560" y="262" class="l">cloud compute</text>
+  <text x="684" y="242" class="k">50+</text><text x="684" y="262" class="l">data-quality rules</text>
+</svg>

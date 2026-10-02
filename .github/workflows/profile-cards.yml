@@ -1,0 +1,61 @@
+name: Profile cards
+
+# Renders assets/header-{dark,light}.svg and assets/stats-{dark,light}.svg and rewrites
+# the "Recently" block in README.md, then commits only if something changed.
+#
+# Everything is read from public data (contribution calendar, search API, public events),
+# so no personal access token is needed; the built-in token only raises the API rate limit.
+# If a source fails, the script raises before writing, the job goes red and the last good
+# cards stay committed.
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/profile-cards.yml"
+  schedule:
+    # 06:15 UTC = 23:15 in Phoenix, so the card reflects the day just finished
+    - cron: "15 6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-cards
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Render header
+        run: python3 scripts/make_header.py
+
+      - name: Render activity card and recent activity
+        env:
+          GH_USER: manvith1604
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/profile_cards.py
+
+      - name: Commit if changed
+        run: |
+          if [[ -z "$(git status --porcelain assets README.md)" ]]; then
+            echo "cards unchanged"; exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets README.md
+          git commit -m "Profile cards: refresh live activity"
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin main && git push && exit 0
+            echo "push attempt $i lost a race, retrying"; sleep 5
+          done
+          echo "could not push after 3 attempts"; exit 1
